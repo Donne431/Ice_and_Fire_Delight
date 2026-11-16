@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ice_and_fire_delight:block/shiny_scales_block_down",
+    "up": "ice_and_fire_delight:block/shiny_scales_block_up",
+    "north": "ice_and_fire_delight:block/shiny_scales_block_north",
+    "east": "ice_and_fire_delight:block/shiny_scales_block_east",
+    "south": "ice_and_fire_delight:block/shiny_scales_block_south",
+    "west": "ice_and_fire_delight:block/shiny_scales_block_west",
+    "particle": "ice_and_fire_delight:block/shiny_scales_block"
+  },
+  "render_type": "solid"
+}

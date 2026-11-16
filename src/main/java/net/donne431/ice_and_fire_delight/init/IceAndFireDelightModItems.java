@@ -167,6 +167,7 @@ public class IceAndFireDelightModItems {
 	public static final RegistryObject<Item> DRAGONBONE_KNIFE = REGISTRY.register("dragonbone_knife", () -> new DragonboneKnifeItem());
 	public static final RegistryObject<Item> PHANTOM_KNIFE = REGISTRY.register("phantom_knife", () -> new PhantomKnifeItem());
 	public static final RegistryObject<Item> BLACK_DRAGON_CUTTING_BOARD = block(IceAndFireDelightModBlocks.BLACK_DRAGON_CUTTING_BOARD);
+	public static final RegistryObject<Item> SHINY_SCALES_BLOCK = block(IceAndFireDelightModBlocks.SHINY_SCALES_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

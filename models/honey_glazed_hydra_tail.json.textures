@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "honey_glazed_hydra_tail"
+      },
+      "name": "default"
+    }
+  }
+}

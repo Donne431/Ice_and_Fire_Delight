@@ -33,6 +33,8 @@ import net.donne431.ice_and_fire_delight.init.IceAndFireDelightModTabs;
 import net.donne431.ice_and_fire_delight.init.IceAndFireDelightModMobEffects;
 import net.donne431.ice_and_fire_delight.init.IceAndFireDelightModItems;
 import net.donne431.ice_and_fire_delight.init.IceAndFireDelightModBlocks;
+import net.donne431.ice_and_fire_delight.init.IceAndFireDelightModLootRegistry;
+
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,6 +44,9 @@ import java.util.List;
 import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
+
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("ice_and_fire_delight")
 public class IceAndFireDelightMod {
@@ -60,6 +65,8 @@ public class IceAndFireDelightMod {
 
 		IceAndFireDelightModMobEffects.REGISTRY.register(bus);
 
+		bus.addListener(IceAndFireDelightMod::setup);
+
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
@@ -76,6 +83,12 @@ public class IceAndFireDelightMod {
 	public static void queueServerWork(int tick, Runnable action) {
 		workQueue.add(new AbstractMap.SimpleEntry(action, tick));
 	}
+
+	private static void setup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            IceAndFireDelightModLootRegistry.init();
+        });
+    }
 
 	@SubscribeEvent
 	public void tick(TickEvent.ServerTickEvent event) {

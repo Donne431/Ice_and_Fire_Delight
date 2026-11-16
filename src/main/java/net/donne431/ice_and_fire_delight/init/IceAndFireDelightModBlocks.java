@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.donne431.ice_and_fire_delight.block.ShinyScalesBlockBlock;
 import net.donne431.ice_and_fire_delight.block.FrostPieBlock;
 import net.donne431.ice_and_fire_delight.block.FieryHotPieBlock;
 import net.donne431.ice_and_fire_delight.block.ElectricPieBlock;
@@ -24,4 +25,5 @@ public class IceAndFireDelightModBlocks {
 	public static final RegistryObject<Block> ELECTRIC_PIE = REGISTRY.register("electric_pie", () -> new ElectricPieBlock());
 	public static final RegistryObject<Block> DRAGON_SPECIAL_PIE = REGISTRY.register("dragon_special_pie", () -> new DragonSpecialPieBlock());
 	public static final RegistryObject<Block> BLACK_DRAGON_CUTTING_BOARD = REGISTRY.register("black_dragon_cutting_board", () -> new BlackDragonCuttingBoardBlock());
+	public static final RegistryObject<Block> SHINY_SCALES_BLOCK = REGISTRY.register("shiny_scales_block", () -> new ShinyScalesBlockBlock());
 }

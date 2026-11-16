@@ -96,6 +96,7 @@ public class IceAndFireDelightModTabs {
 				tabData.accept(IceAndFireDelightModItems.DRAGONBONE_KNIFE.get());
 				tabData.accept(IceAndFireDelightModItems.PHANTOM_KNIFE.get());
 				tabData.accept(IceAndFireDelightModBlocks.BLACK_DRAGON_CUTTING_BOARD.get().asItem());
+				tabData.accept(IceAndFireDelightModBlocks.SHINY_SCALES_BLOCK.get().asItem());
 			})
 
 			.build());
