@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "ice_and_fire_delight:dragon_bone_flour"
+    },
+    {
+      "item": "ice_and_fire_delight:dragon_bone_flour"
+    },
+    {
+      "item": "ice_and_fire_delight:dragon_bone_flour"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "ice_and_fire_delight:dragon_bone_dough"
+  }
+}

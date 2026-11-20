@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "ice_and_fire_delight:fire_heart_with_potatoes_in_mushroom_sauce"
+    },
+    "title": {
+      "translate": "advancements.delicacy.title"
+    },
+    "description": {
+      "translate": "advancements.delicacy.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "delicacy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "ice_and_fire_delight:hearts_with_potatoes_in_mushroom_sauce",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ice_and_fire_delight:root"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "farmersdelight:block/template_pie_slice3",
+  "textures": {
+    "side": "ice_and_fire_delight:block/dragon_pie_side",
+    "top": "ice_and_fire_delight:block/electric_pie_top",
+    "bottom": "ice_and_fire_delight:block/dragon_pie_bottom",
+    "inner": "ice_and_fire_delight:block/electric_pie_inner"
+  }
+}

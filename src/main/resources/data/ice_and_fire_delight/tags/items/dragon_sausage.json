@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ice_and_fire_delight:ice_sausage",
+    "ice_and_fire_delight:fire_sausage",
+    "ice_and_fire_delight:lightning_sausage",
+    "ice_and_fire_delight:dragon_special_sausage"
+  ]
+}

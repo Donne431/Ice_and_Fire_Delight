@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "iceandfire:lightning_dragon_flesh"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "ice_and_fire_delight:minced_lightning_flesh"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

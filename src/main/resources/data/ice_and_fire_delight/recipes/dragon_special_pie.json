@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ice_and_fire_delight:minced_lightning_flesh"
+    },
+    {
+      "item": "ice_and_fire_delight:minced_ice_flesh"
+    },
+    {
+      "item": "ice_and_fire_delight:minced_fire_flesh"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "ice_and_fire_delight:fire_lily_extract"
+    },
+    {
+      "item": "ice_and_fire_delight:frost_lily_extract"
+    },
+    {
+      "item": "ice_and_fire_delight:lightning_lily_extract"
+    },
+    {
+      "item": "ice_and_fire_delight:dragon_omelet_slice"
+    },
+    {
+      "item": "ice_and_fire_delight:dragon_pie_crust"
+    }
+  ],
+  "result": {
+    "item": "ice_and_fire_delight:dragon_special_pie",
+    "count": 1
+  }
+}

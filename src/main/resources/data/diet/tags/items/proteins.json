@@ -1,0 +1,30 @@
+{
+  "values": [
+  	"ice_and_fire_delight:dragon_omelet",
+  	"ice_and_fire_delight:dragon_omelet_slice",
+  	"ice_and_fire_delight:sea_serpent_slice",
+  	"ice_and_fire_delight:cooked_sea_serpent_slice",
+  	"ice_and_fire_delight:troll_meat",
+    "ice_and_fire_delight:sea_serpent_meat",
+    "ice_and_fire_delight:cyclops_meat",
+    "ice_and_fire_delight:hydra_meat",
+    "ice_and_fire_delight:cooked_troll_meat",
+    "ice_and_fire_delight:cooked_sea_serpent_meat",
+    "ice_and_fire_delight:cyclops_steak",
+    "ice_and_fire_delight:cooked_hydra_meat",
+    "ice_and_fire_delight:shiny_chips",
+    "ice_and_fire_delight:spicy_shiny_chips",
+    "ice_and_fire_delight:honey_glazed_troll_meat", 
+    "ice_and_fire_delight:honey_glazed_cyclops_eye",
+    "ice_and_fire_delight:ectoplasm_jelly",
+    "ice_and_fire_delight:minced_fire_flesh",
+    "ice_and_fire_delight:minced_ice_flesh",
+    "ice_and_fire_delight:minced_lightning_flesh",
+    "ice_and_fire_delight:troll_intestines",
+    "iceandfire:cyclops_eye", 
+    "iceandfire:hydra_heart",
+    "iceandfire:fire_dragon_heart",
+    "iceandfire:ice_dragon_heart",
+    "iceandfire:lightning_dragon_heart"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "ice_and_fire_delight:add_loot_table",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "iceandfire:entities/sea_serpent"
+    }
+  ],
+  "lootTable": "ice_and_fire_delight:entities/sea_serpent_loot_table"
+}
